@@ -1,0 +1,137 @@
+{
+  "id": "0",
+  "type": "Scene",
+  "props": {
+    "label": "test",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1
+    },
+    "angle": 0,
+    "width": 720,
+    "height": 540,
+    "alpha": 1,
+    "visible": true
+  },
+  "children": [
+    {
+      "id": "node98",
+      "type": "Sprite",
+      "props": {
+        "url": "assets/apple.png",
+        "label": "apple",
+        "position": {
+          "x": 120,
+          "y": 400
+        },
+        "scale": {
+          "x": 0.48387870788574083,
+          "y": 0.48387870788573745
+        },
+        "angle": 0,
+        "width": 320,
+        "height": 372,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "alpha": 1,
+        "visible": true
+      },
+      "scripts": [
+        {
+          "id": "520a3a03-d18f-43be-886e-48f66078c387",
+          "script": "scripts/script1.ts",
+          "path": "scripts/script1.ts",
+          "props": {
+            "label": "script1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "node418",
+      "type": "Sprite",
+      "props": {
+        "url": "assets/brick.png",
+        "label": "brick",
+        "position": {
+          "x": 169.4856872558597,
+          "y": 301.21954345703176
+        },
+        "angle": 0,
+        "width": 128,
+        "height": 128,
+        "alpha": 1,
+        "visible": true,
+        "scale": {
+          "x": 1.0000000000000084,
+          "y": 1.0000000000000084
+        }
+      },
+      "scripts": [],
+      "children": []
+    },
+    {
+      "id": "node84",
+      "type": "Sprite",
+      "props": {
+        "url": "assets/apple2.png",
+        "label": "apple2",
+        "position": {
+          "x": 69.64007568359051,
+          "y": 146.67922973632716
+        },
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0,
+        "width": 50,
+        "height": 58,
+        "alpha": 1,
+        "visible": true
+      }
+    },
+    {
+      "id": "node604",
+      "type": "Sprite",
+      "props": {
+        "url": "assets/strawberry.png",
+        "label": "strawberry",
+        "position": {
+          "x": 474.9257812499879,
+          "y": 325.2116088867136
+        },
+        "scale": {
+          "x": 0.5454565429687499,
+          "y": 0.5454565429687499
+        },
+        "angle": 0,
+        "width": 350,
+        "height": 350,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "alpha": 1,
+        "visible": true
+      },
+      "children": [],
+      "scripts": [
+        {
+          "id": "520a3a03-d18f-43be-886e-48f66078c389",
+          "script": "scripts/script2.ts",
+          "path": "scripts/script2.ts",
+          "props": {
+            "label": "script2"
+          }
+        }
+      ]
+    }
+  ]
+}
