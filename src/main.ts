@@ -3,7 +3,7 @@ import { config } from './config';
 
 async function main() {
   const app = new App();
-  await app.init({...config.app});
+  await app.init({ ...config.app });
 
   const scene = new Scene({
     url: config.scenes[0],

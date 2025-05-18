@@ -1,16 +1,11 @@
-import { Rectangle } from 'liko';
-import './scripts/script1';
-import './scripts/script2';
+import './scripts/TestScript';
 
 export const config = {
   app: {
-    width: 1024,
-    height: 768,
-    physics: {
-      enabled: true,
-      boundaryArea: new Rectangle(0, 0, 480, 700).pad(500),
-      debug: true,
-    },
+    title: 'liko-game',
+    width: 600,
+    height: 800,
+    bgColor: 0x333333,
   },
-  scenes: ['scenes/scene1.scene', 'scenes/scene2.scene'],
+  scenes: ['scenes/main.scene'],
 };

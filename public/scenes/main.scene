@@ -1,0 +1,37 @@
+{
+    "id": "0",
+    "type": "Scene",
+    "props": {
+        "label": "Main Scene",
+        "width": 600,
+        "height": 800
+    },
+    "children": [
+        {
+            "id": "9c1b1ed8-5fda-48f3-a001-f34a96c1e00f",
+            "type": "Text",
+            "props": {
+                "text": "双击图片添加到场景中",
+                "fontSize": 30,
+                "position": {
+                    "x": 300,
+                    "y": 400
+                },
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "textColor": "#ff0000"
+            },
+            "scripts": [
+                {
+                    "script": "scripts/TestScript.ts",
+                    "path": "scripts/TestScript.ts",
+                    "props": {
+                        "count": 10
+                    }
+                }
+            ]
+        }
+    ]
+}

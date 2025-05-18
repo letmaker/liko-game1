@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "liko"
+    ],
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.scene": "json",
+        "*.atlas": "json"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
