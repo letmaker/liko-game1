@@ -1,4 +1,4 @@
-# liko-game
+# liko-game1
 
 这是一个由 Liko 编辑器创建的游戏项目，使用 AI 创建游戏逻辑
 
@@ -30,7 +30,7 @@ npm run build
 ## 项目结构
 
 ```
-liko-game/
+liko-game1/
 ├── src/          # 源代码目录
 │   └── scripts/  # 游戏逻辑脚本
 ├── public/       # 静态资源目录
