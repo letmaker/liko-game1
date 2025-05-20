@@ -1,11 +1,13 @@
-import './scripts/TestScript';
+import './scripts/Hero.ts';
 
 export const config = {
-  app: {
-    title: 'liko-game1',
-    width: 600,
-    height: 800,
-    bgColor: 0x333333,
+  "app": {
+    "title": "liko-game",
+    "width": 600,
+    "height": 800,
+    "bgColor": 3355443
   },
-  scenes: ['scenes/main.scene'],
+  "scenes": [
+    "scenes/main.scene"
+  ]
 };

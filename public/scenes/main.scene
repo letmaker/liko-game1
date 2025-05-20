@@ -1,37 +1,54 @@
 {
-    "id": "0",
-    "type": "Scene",
-    "props": {
-        "label": "Main Scene",
-        "width": 600,
-        "height": 800
-    },
-    "children": [
-        {
-            "id": "9c1b1ed8-5fda-48f3-a001-f34a96c1e00f",
-            "type": "Text",
-            "props": {
-                "text": "双击图片添加到场景中",
-                "fontSize": 30,
-                "position": {
-                    "x": 300,
-                    "y": 400
-                },
-                "anchor": {
-                    "x": 0.5,
-                    "y": 0.5
-                },
-                "textColor": "#ff0000"
-            },
-            "scripts": [
-                {
-                    "script": "scripts/TestScript.ts",
-                    "path": "scripts/TestScript.ts",
-                    "props": {
-                        "count": 10
-                    }
-                }
-            ]
+  "id": "0",
+  "type": "Scene",
+  "props": {
+    "label": "Main Scene",
+    "width": 600,
+    "height": 800
+  },
+  "children": [
+    {
+      "id": "4eac240d-6c80-472b-a68c-b75510feeea3",
+      "type": "Sprite",
+      "props": {
+        "label": "背景.png",
+        "url": "assets/images/背景.png",
+        "width": 480,
+        "height": 700,
+        "position": {
+          "x": 60,
+          "y": 50
         }
-    ]
+      }
+    },
+    {
+      "id": "35573732-6fa1-4c32-b11a-a4c89fd12d72",
+      "type": "Sprite",
+      "props": {
+        "label": "主角1.png",
+        "url": "assets/images/主角1.png",
+        "width": 102,
+        "height": 126,
+        "position": {
+          "x": 252.16571044922242,
+          "y": 495.64471435547597
+        },
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "angle": 0
+      },
+      "scripts": [
+        {
+          "id": "1f8cca30-a0ba-4282-852e-ee24366c1c48",
+          "script": "scripts/Hero.ts",
+          "path": "scripts/Hero.ts",
+          "props": {
+            "label": "Hero"
+          }
+        }
+      ]
+    }
+  ]
 }
